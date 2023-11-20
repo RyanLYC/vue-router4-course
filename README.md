@@ -15,7 +15,7 @@
 ## A to B
 * ComponentA beforeRouteLeave
 * router.beforeEach
-* /b beforeEach
+* /b beforeEnter 路由对象上的beforeEnter
 * ComponentB beforeRouteEnter
 * router.beforeResolve
 * router.afterEach

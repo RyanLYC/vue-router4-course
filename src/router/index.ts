@@ -7,24 +7,24 @@ const router = createRouter({
       path: '/a',
       component: () => import('@/views/AboutA.vue'),
       beforeEnter: (to, from) => {
-        console.log('/a beforeEach - to:', to)
-        console.log('/a beforeEach - from:', from)
+        console.log('/a beforeEnter - to:', to)
+        console.log('/a beforeEnter - from:', from)
       }
     },
     {
       path: '/b',
       component: () => import('@/views/AboutB.vue'),
       beforeEnter: (to, from) => {
-        console.log('/b beforeEach - to:', to)
-        console.log('/b beforeEach - from:', from)
+        console.log('/b beforeEnter - to:', to)
+        console.log('/b beforeEnter - from:', from)
       }
     },
     {
       path: '/c',
       component: () => import('@/views/AboutC.vue'),
       beforeEnter: (to, from) => {
-        console.log('/c beforeEach - to:', to)
-        console.log('/c beforeEach - from:', from)
+        console.log('/c beforeEnter - to:', to)
+        console.log('/c beforeEnter - from:', from)
       }
     }
   ]
